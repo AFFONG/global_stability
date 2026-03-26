@@ -1,28 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,images,data
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,images,data
 
-### Data ###
-*.csv
-*.dat
-*.efx
-*.gbr
-*.key
-*.pps
-*.ppt
-*.pptx
-*.sdf
-*.tax2010
-*.vcf
-*.xml
-
-### Images ###
-# JPEG
-*.jpg
-*.jpeg
-*.jpe
-*.jif
-*.jfif
-*.jfi
 
 # JPEG 2000
 *.jp2
@@ -45,9 +23,6 @@
 
 # Web P
 *.webp
-
-# Portable Network Graphics
-*.png
 
 # Animated Portable Network Graphics
 *.apng
