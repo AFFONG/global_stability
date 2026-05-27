@@ -28,6 +28,6 @@ def compute_viscous_jacobian(mu, Pr, gamma, rho, xi, xj, mu_t=0.0, Pr_t=0.9):
     max_term     = max(4.0 / (3.0 * rho), gamma / rho)
     prandtl_term = (mu / Pr) + (mu_t / Pr_t)
     lambda_max   = (1.0 / l_ij) * max_term * prandtl_term
-    J_G          = lambda_max * np.eye(len(xi))
+    J_G          = lambda_max * np.eye(5)
 
     return lambda_max, J_G
