@@ -17,6 +17,7 @@ def _build():
 
     rhoi = Ui[0]; ui = Ui[1:4, :] / rhoi
     rhoj = Uj[0]; uj = Uj[1:4, :] / rhoj
+    
     pi = (Ui[4] - rhoi * dot(ui, ui) / 2) * (g - 1)
     pj = (Uj[4] - rhoj * dot(uj, uj) / 2) * (g - 1)
 
